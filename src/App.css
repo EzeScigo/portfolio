@@ -14,16 +14,20 @@ html {
   scroll-behavior: smooth;
 }
 
+h1, h2 {
+  font-family: 'Raleway';
+}
+
 body {
   margin: 0;
-  height: 100%;
+  width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
-  color: salmon;
 }
 
 .wrapper {
@@ -33,23 +37,21 @@ a {
   align-items: stretch;
   justify-items: center;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  background-color: #292f34; /* Old browsers */
-  /* background: -moz-linear-gradient(left, #01325c 0%, #292f34 100%); /* FF3.6-15 */
-  /* background: -webkit-linear-gradient(left, #01325c 0%,#292f34 100%); Chrome10-25,Safari5.1-6 */
-  /* background: linear-gradient(to left, #01325c 0%,#292f34 100%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
-  /* background: linear-gradient(to bottom, #01325c, #173046 50%, #292f34 75%, #333 75%); */
+  background-color: #0d2d47; /* Old browsers */
+  background: -moz-linear-gradient(bottom, #01325c 0%, #292f34 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(bottom, #292f34 0%,#292f34 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #04335a, #133049 20%, #171b1f 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 };
+/* 292f34 */
 
 .home-container {
   position: relative;
-
 }
 
 .particles-container {
   height: 50vh;
-  width: calc(100vw + 100px);
+  width: 100vw;
   z-index: -1;
 };
 
@@ -59,7 +61,6 @@ a {
 
 .main {
   flex-grow: 1;
- 
 }
 
 .header, .main, .footer {

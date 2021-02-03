@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: stretch;
+  // background-color: #133049;
 };
 
 .home {
@@ -12,20 +13,65 @@
   justify-content: center;
 };
 
-.section {
-  height: 100%;
-  min-height: 2000px;
-  padding-top: 131px;
-  margin: 0 auto;
-  padding: 130px 48px 24px;
+section {
+  height: auto;
+  margin: 0;
+
+  h2 {
+    color: rgb(14, 12, 12);
+    margin: 50px;
+  }
 };
 
-.content {
+.about {
+  padding-top: 100px;
+  height: 300px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  max-width: 940px;
-  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: whitesmoke;
+
+  .about-text-container {
+    height: 50%;
+    min-width: 0;
+    flex-grow: 2;
+    padding: 25px 12px 18px;
+    border-bottom: 0.5px solid #1DD9CD; 
+    // background: linear-gradient(45deg, rgb(25, 97, 78), rgb(59, 15, 15));
+    // border-radius: 5px;
+    // border-color: whitesmoke;
+    // box-shadow: 2px 1px 5px rgb(236, 230, 230);
+  }
+  
+  .about-text {
+    color: rgb(31, 25, 25);
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+}
+
+.projects {
+  margin: 0;
+  padding: 80px 40px 80px;
   border-radius: 1px;
+  background-color: rgb(226, 226, 226);
+  display: flex;
+  flex-direction: row;
+
+  .card-container {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    column-gap: 20px;
+  }
+}
+
+.contact {
+  margin: 0;
+  padding: 80px 40px 80px;
+  background-color: whitesmoke;
 }
 
 .main {

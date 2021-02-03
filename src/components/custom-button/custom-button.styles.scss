@@ -4,6 +4,7 @@
   height: 60px;
   width: 320px;  
   cursor: pointer;
+  z-index: 1;
 
 
   .shape {
@@ -26,7 +27,7 @@
     position: relative;
     top: -48px;
     text-align: center;
-    
+    z-index: 0;
   }
   
   &:hover .shape {

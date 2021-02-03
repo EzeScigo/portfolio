@@ -1,5 +1,5 @@
 .title-container {
-  width: 100vw;
+  width: 100%;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -9,6 +9,7 @@
   background-color: transparent;
   position: absolute;
   height: 100vh;
+  
   
   .title {
     text-align: center;
@@ -22,7 +23,15 @@
     margin: 10px;
     pointer-events: none;
     -webkit-font-smoothing: antialiased;
+    
+  
+    .highlight {
+      color: #1DD9CD;
+      text-shadow: 0 0 2px #07635D;
+    }
   };
+
+  // 1DD9CD
 
   custom-button {
     align-items: center;

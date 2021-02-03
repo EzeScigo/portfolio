@@ -1,40 +1,26 @@
-import React, {useState} from 'react';
-
-import useDocumentScrollThrottled from '../../utils/useDocumentScrollThrottled/useDocumentScrollThrottled';
+import React, {useState, useEffect} from 'react';
+import { debounce } from '../../utilities/helpers';
+import { Sticky } from 'react-sticky';
 
 import './header.styles.scss';
 
 const Header = () => {
-  const [hideHeader, setHideHeader] = useState(false);
-  const [showShadow, setShowShadow] = useState(false);
-
-  const MINIMUM_SCROLL = 80;
-  const TIMEOUT_DELAY = 400;
-
-  useDocumentScrollThrottled(callbackData => {
-    const { previousScrollTop, currentScrollTop } = callbackData;
-    const isScrolledDown = previousScrollTop < currentScrollTop;
-    const isMinimumScrolled = currentScrollTop > MINIMUM_SCROLL;
-
-    setShowShadow(currentScrollTop > 2);
-
-    setTimeout(() => {
-      setHideHeader(isScrolledDown && isMinimumScrolled);
-    }, TIMEOUT_DELAY);
-  });
-
-  const shadowStyle = showShadow ? 'shadow' : '';
-  const hiddenStyle = hideHeader ? 'hidden' : '';
+  const [prevScrollPos, setPrevScrollPos] = useState(0); 
+  const [visible, setVisible] = useState(false);
 
   return (
-    <div className={`header-container ${hiddenStyle} ${shadowStyle}`}>
-      <div className='logo'>Logo</div>
-      <ul className='links'>
-        <li className='link-item'>Works</li>
-        <li className='link-item'>About</li>
-        <li className='link-item'>Contact</li>
-      </ul>  
-    </div>
+    <Sticky>
+      {({ style, isSticky }) => ( 
+        <header style={style} className={`${isSticky ? '' : 'hidden'}`}>
+          <a href='#home'><div className='logo'>Logo</div></a>
+          <ul className='links'>
+            <a href='#about-me'><li className='link-item'>About me</li></a>
+            <a href='#projects'><li className='link-item'>Projects</li></a>
+            <a href='#contact'><li className='link-item'>Contact</li></a>
+          </ul>  
+        </header>
+      )}
+    </Sticky>
 )};
 
 

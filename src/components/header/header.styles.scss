@@ -1,29 +1,33 @@
-.header-container {
-  position: relative;
-  left: 0;
+header {
+  top: 0;
+  width: 100%;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  height: 86px;
-  background-color: #fff;
-  color: #333;
-  transform: translateY(0);
-  transition: transform 0.3s ease;
+  background-color: #292f34;
+  box-shadow: 2px 2px 2px rgb(131, 126, 126);
+  border-radius: 1px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  z-index: 10;
+  // #14171a;
+  // 68,134,126
 };
-
-.shadow {
-  box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
-}
+// box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
 
 .hidden {
-  transform: translateY(-110%);
+  visibility: hidden;
+  height: 0%;
+  opacity: 0;
 }
 
 .logo {
   margin: 0 24px;
   font-size: 28px;
-  color: #f59596;
+  color: #6a88a0;
 }
 
 .links {
@@ -32,7 +36,13 @@
 }
 
 .link-item {
+  font-family: 'Yusei Magic';
   display: inline-block;
   margin: 0 12px;
   cursor: pointer;
+  font-size: 16px;
+  color: rgb(250, 250, 250);
+  text-transform: uppercase;
 }
+
+// rgb(210, 211, 210);
