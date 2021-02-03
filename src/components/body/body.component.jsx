@@ -24,14 +24,12 @@ const Body = (props) => {
         <Card title='Firebase' type='programming' img='https://www.gstatic.com/devrel-devsite/prod/v0fb4b1803f033e9961238a08d52e344eadd99129bc9fd30999fe77c5f5dcfd87/firebase/images/touchicon-180.png' />
         <Card title='GitHub' type='programming' img='https://github.githubassets.com/images/modules/open_graph/github-mark.png' />
       </div>
-      <div>
+      <div className='projects-text'>
         <h2>My Stack</h2> 
       </div>
     </section>
     <section id='contact' className='contact'>
-      <div className='form-container'>
-        <ContactForm />
-      </div>
+      <ContactForm />
     </section>
   </div>
 )};

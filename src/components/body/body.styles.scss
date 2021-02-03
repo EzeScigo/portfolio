@@ -37,7 +37,7 @@ section {
     min-width: 0;
     flex-grow: 2;
     padding: 25px 12px 18px;
-    border-bottom: 0.5px solid #1DD9CD; 
+    border-bottom: 1px solid #1DD9CD; 
     // background: linear-gradient(45deg, rgb(25, 97, 78), rgb(59, 15, 15));
     // border-radius: 5px;
     // border-color: whitesmoke;
@@ -60,6 +60,11 @@ section {
   display: flex;
   flex-direction: row;
 
+  .projects-text {
+    text-align: center;
+    width: auto;
+  };
+
   .card-container {
     width: 70%;
     display: grid;
@@ -71,8 +76,8 @@ section {
 .contact {
   margin: 0;
   padding: 80px 40px 80px;
-  background-color: whitesmoke;
-}
+  background-color: rgb(16, 22, 24);
+};
 
 .main {
   display: flex;
