@@ -108,66 +108,61 @@ const ContactForm = () => {
   const { formErrors, name, message, subject, email } = userCredentials;
 
   return (
-    <div className='contact-form'>
+    <div className='form-container'>
+      <div className='row'>
         <h2>Let's get in touch!</h2>
-        <h3>I will get back to you as soon as possible.</h3>
-        <form id='contact-form' onSubmit={handleSubmit} noValidate>
-          <div className='row'>
-            <div className='col-6'>
-              <FormInput 
-                  name="name" 
-                  type="text" 
-                  value={name}
-                  handleChange={handleChange}
-                  label="Name" 
-                  required
-              />
-            </div>
-            <div className='col-6'>
-              <FormInput  
-                  name="email" 
-                  type="email" 
-                  value={email}
-                  handleChange={handleChange}  
-                  label="Your Email address"
-                  required 
-              />
-            </div>
-          </div>
-          <div className='row'>
-            <div className='col-6'>
-              <FormInput 
-                name="subject" 
-                type="subject" 
-                value={subject}
-                handleChange={handleChange}
-                label="Subject" 
-                required
-              />
-            </div>  
-            <div className='col-6'>
-              <textarea
-                rows='5'
-                name='message'
-                value={message}
-                className={`form-control formInput ${
-                  formErrors.message.length > 0 ? 'error' : null
-                }`}
-                onChange={handleChange}
-                placeholder='Message'
-                noValidate
-              ></textarea>
-              {formErrors.message.length > 0 && (
-                <span className='errorMessage'>{formErrors.message}</span>
-              )}
-            </div>
-          </div>
-            <div className='buttons'>
-                <CustomButton type="submit"> Send </CustomButton>
-            </div>
-        </form>
+      </div>
+      <div className='input-container'>
+        <FormInput 
+        name="subject" 
+        type="subject" 
+        value={subject}
+        handleChange={handleChange}
+        label="Subject" 
+        required
+        />
+        <FormInput 
+        name="subject" 
+        type="subject" 
+        value={subject}
+        handleChange={handleChange}
+        label="Subject" 
+        required
+        />
+        <FormInput 
+        name="subject" 
+        type="subject" 
+        value={subject}
+        handleChange={handleChange}
+        label="Subject" 
+        required
+        />
+        <FormInput 
+        name="subject" 
+        type="subject" 
+        value={subject}
+        handleChange={handleChange}
+        label="Subject" 
+        required
+        />
+        <textarea
+          rows='5'
+          name='message'
+          value={message}
+          className={`form-control formInput ${
+            formErrors.message.length > 0 ? 'error' : null
+          }`}
+          onChange={handleChange}
+          placeholder='Message'
+          noValidate
+          ></textarea>
+      </div>
+      
     </div>
   );
 };
 
 export default ContactForm;
+
+
+

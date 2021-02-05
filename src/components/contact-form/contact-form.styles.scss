@@ -1,19 +1,29 @@
-.contact-form {
+.form-container {
   width: 60%;
   display: block;
-
-  h2 {
-    color: whitesmoke;
-  }
+  margin-left: auto;
+  margin-right: auto;
 
   .row {
     display: flex;
-    flex-wrap: wrap;
-  }
+    justify-content: center;
 
-  .title {
-      margin: 10px 0;
-  }
+    h2 {
+      color: whitesmoke;
+    }
+  };
+
+  .input-container {
+    max-width: 100%;
+    margin: auto;
+    margin: 20px auto 25px auto;
+    display: grid;
+    
+
+    input {
+      box-sizing: border-box;
+    }
+  };
 
   .buttons {
       display: flex;
