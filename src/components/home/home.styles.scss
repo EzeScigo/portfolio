@@ -1,15 +1,14 @@
-.title-container {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+.home-title-container {
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: auto;
   z-index: 1;
   background-color: transparent;
   position: absolute;
-  height: 100vh;
-  
+  top: 50%;
+  transform: translate(0, -50%);
   
   .title {
     text-align: center;
@@ -17,17 +16,17 @@
     font-family: 'Raleway';
     font-weight: 300; 
     line-height: 58px; 
-    margin: 0 0 58px;
-    font-size: 42px;
-    text-shadow: 0 0 2px whitesmoke;
-    margin: 10px;
+    font-size: 38px;
+    text-shadow: 0 0 1.5px whitesmoke;
+    margin-bottom: 100px;
     pointer-events: none;
     -webkit-font-smoothing: antialiased;
     
   
     .highlight {
       color: #1DD9CD;
-      text-shadow: 0 0 2px #07635D;
+      text-shadow: 0 0 1.5px whitesmoke;
+      -webkit-font-smoothing: antialiased;
     }
   };
 

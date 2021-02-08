@@ -1,35 +1,34 @@
 .form-container {
-  width: 60%;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 
-  .row {
+  .input-container-row {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
+    padding-left: 0;
+    padding-right: 0;
 
     h2 {
       color: whitesmoke;
     }
   };
 
-  .input-container {
-    max-width: 100%;
-    margin: auto;
-    margin: 20px auto 25px auto;
-    display: grid;
-    
+  .form-group-custom {
+    margin: 25px 0 25px;
 
-    input {
+    .input-custom {
       box-sizing: border-box;
     }
-  };
 
-  .buttons {
-      display: flex;
-      justify-content: space-between;
+    button {
+      display: block;
+      margin: 0 auto;
+    }
   }
-}
+
+};
 
 // @media (min-width: 1200px)
 // .contact-form {

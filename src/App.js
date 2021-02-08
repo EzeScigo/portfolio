@@ -9,8 +9,9 @@ import {ReactComponent as BubbleIcon} from './metal-bubble.png';
 import GradientBackground from '../src/components/gradient-bg/gradient-bg.component';
 import {StickyContainer} from 'react-sticky';
 
-
+import './custom.scss';
 import './App.css';
+
 
 const App = () => {
 

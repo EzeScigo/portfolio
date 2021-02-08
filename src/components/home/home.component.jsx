@@ -6,7 +6,7 @@ import './home.styles.scss';
 const Home = () => {
 
   return (
-    <div className='title-container'>
+    <div className='home-title-container'>
       <div className="title">Hi! I'm  <span className='highlight'>Ezequiel Scigolini</span>
         <br></br>
         Chemical Engineer & Front End Developer

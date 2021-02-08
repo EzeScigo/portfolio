@@ -1,39 +1,40 @@
-.svg-wrapper {
+.home-svg-wrapper {
   position: relative;
   margin: 0 auto;
   height: 60px;
-  width: 320px;  
+  width: 200px;  
   cursor: pointer;
   z-index: 1;
 
-
   .shape {
-    stroke-dasharray: 140 540;
-    stroke-dashoffset: -474;
+    stroke-dasharray: 80 400;
+    stroke-dashoffset: -320;
     stroke-width: 4px;
     fill: transparent;
     stroke: #19f6e8;
     border-bottom: 2px solid white;
     transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
-    
   }
 
   .text {
-    font-family: 'Piazzolla';
-    font-size: 22px;
+    font-family: 'Roboto', 'Open Sanz', 'Comic Sanz', 'Arial';
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 0 0 1px whitesmoke;
     line-height: 32px;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     color: #fff;
     position: relative;
-    top: -48px;
+    top: -45px;
     text-align: center;
     z-index: 0;
+    text-transform: uppercase;
   }
   
   &:hover .shape {
     stroke-width: 2px;
     stroke-dashoffset: 0;
-    stroke-dasharray: 760;
+    stroke-dasharray: 520;
   }
   
 }
