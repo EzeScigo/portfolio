@@ -1,9 +1,15 @@
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
 .header-navbar {
+  overflow: hidden;
   top: 0;
   width: 100%;
-  height: 50px;
   display: flex;
   align-items: center;
+  flex-direction: row;
   justify-content: space-between;
   background-color: #292f34;
   box-shadow: 2px 2px 2px rgb(131, 126, 126);
@@ -13,35 +19,70 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   z-index: 10;
-  // #14171a;
-  // 68,134,126
+
+  .logo {
+    float: none;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    color: #e63872;
+    text-shadow: aquamarine;
+    transition: 0.4s ease;
+    &:hover {
+      color: #49bdbd;
+    }
+  }
+
+  .header-buttons {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    // float: none;
+    padding: 0;
+    margin: 0 10px;
+  
+    a {
+      margin: 0 10px;
+      font-family: 'Josefin Sans';
+      cursor: pointer;
+      font-size: 14px;
+      color: rgb(250, 250, 250);
+      text-transform: uppercase;
+    
+      &:hover {
+        color:rgb(172, 164, 164);
+      }
+    }
+  }
 };
-// box-shadow: 0 9px 9px -9px rgba(0, 0, 0, 0.13);
 
-.hidden {
-  visibility: hidden;
-  opacity: 0;
+
+/* Small devices: 576px and up  */
+@media (min-width: 430px) {
+  .header-navbar {
+    .logo {
+      float: left;
+      text-align: center;
+    }
+
+    .header-buttons {
+      display: inline;
+      float: right;
+    }
+  }
+  
+
 }
 
-.header-logo {
-  margin: 0 24px;
-  font-size: 28px;
-  color: #6a88a0;
-}
+/* Medium devices: tablets, 768px and up */
+@media (min-width: 768px) {}
 
-.header-links {
-  padding: 0;
-  margin: 0 24px;
-}
+/* Large devices: desktops, 992px and up */
+@media (min-width: 992px) {}
 
-.header-link-item {
-  font-family: 'Yusei Magic';
-  display: inline-block;
-  margin: 0 12px;
-  cursor: pointer;
-  font-size: 16px;
-  color: rgb(250, 250, 250);
-  text-transform: uppercase;
-}
-
-// rgb(210, 211, 210);
+/* Extra large devices: large desktops, 1200px and up */
+@media (min-width: 1200px) {}

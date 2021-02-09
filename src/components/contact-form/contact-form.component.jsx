@@ -137,7 +137,6 @@ const ContactForm = () => {
             label="Name" 
           />
         </Form.Group>
-       
         <Form.Group className='form-group-custom' as={Col} controlId="formGridEmail">
           <FormInput 
             name="email" 
@@ -148,7 +147,6 @@ const ContactForm = () => {
 
           />
         </Form.Group>
-
       </Form.Row>
       <Form.Row className='input-container-row'>
         <Form.Group className='form-group-custom' as={Col} controlId="formGridSubject">

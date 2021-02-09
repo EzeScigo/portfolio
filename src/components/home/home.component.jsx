@@ -9,7 +9,8 @@ const Home = () => {
     <div className='home-title-container'>
       <div className="title">Hi! I'm  <span className='highlight'>Ezequiel Scigolini</span>
         <br></br>
-        Chemical Engineer & Front End Developer
+        <br></br>
+        <span className='title-layout-mobile'>Engineer & Front End Developer</span>
         <br></br>
         Based in The Netherlands
       </div>

@@ -15,13 +15,16 @@
     color: whitesmoke;
     font-family: 'Raleway';
     font-weight: 300; 
-    line-height: 58px; 
-    font-size: 38px;
+    font-size: 22px;
+    line-height: 40px; 
     text-shadow: 0 0 1.5px whitesmoke;
     margin-bottom: 100px;
     pointer-events: none;
     -webkit-font-smoothing: antialiased;
     
+    .title-layout-mobile {
+      white-space:nowrap;
+    }
   
     .highlight {
       color: #1DD9CD;
@@ -36,4 +39,22 @@
     align-items: center;
     width: 200px;
   }
-}
+};
+
+/* Small devices: 576px and up  */
+@media (min-width: 576px) {}
+
+/* Medium devices: tablets, 768px and up */
+@media (min-width: 768px) {}
+
+/* Large devices: desktops, 992px and up */
+@media (min-width: 992px) {
+  .home-title-container {
+    .title {
+      font-size: 38px;
+      line-height: 58px; 
+    }
+}}
+
+/* Extra large devices: large desktops, 1200px and up */
+@media (min-width: 1200px) {}
