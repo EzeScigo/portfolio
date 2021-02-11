@@ -41,7 +41,7 @@ p {
   font-family: 'Ubuntu';
   font-size: 20px;
   word-wrap: break-word;
-  text-align: justify;
+  text-align: left;
 }
 
 a {
