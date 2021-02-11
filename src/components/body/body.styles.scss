@@ -19,7 +19,13 @@ section {
 
   h2 {
     color: rgb(14, 12, 12);
-    margin: 50px;
+    margin: 30px;
+  }
+
+  hr {
+    border-top: 1px solid #49bdbd;
+    width: 20%;
+    margin-bottom: 30px;
   }
 };
 
@@ -32,7 +38,7 @@ section {
 
   h2 {
     color: rgb(245, 239, 239);
-    margin: 50px 0 20px;
+    margin: 30px 0 20px;
   };
 
   h4 {
@@ -42,11 +48,34 @@ section {
   };
 };
 
-.fa-linkedin {
-  color:rgb(245, 239, 239);
-  width: auto;
-  height: 50px;
+.contact-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 10px 10px 5px;
+
+  .fa-icon-container {
+    padding: 10px;
+
+    .fa-icon {
+      color:rgb(255, 255, 255);
+      background-color:rgb(14, 12, 12);
+      width: auto;
+      height: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    
+      &:hover {
+        color: #e63872;
+        background-color: rgb(5, 5, 5);
+      }
+
+
+    }
+  }
 }
+
 
 .main {
   display: flex;
