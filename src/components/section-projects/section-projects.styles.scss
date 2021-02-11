@@ -6,6 +6,11 @@
   border-radius: 1px;
   background-color: rgb(226, 226, 226);
 
+  .projects-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .projects-text {
     margin: 0 auto;
     text-align: center;
@@ -28,11 +33,29 @@
   }
 };
 
-/* Small devices: 576px and up  */
 @media (max-width: 430px) {
   .projects {
-    .card-container {
+    .cards-container {
       display: inline-flex;
-    } 
+      max-width: 100%;
+      margin: 0;
+    };
+
+    .projects-text {
+      max-width: 90%;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .projects {
+    .cards-container {
+      display: inline-flex;
+      max-width: 100%;
+      margin: 0;
+    };
+    .projects-text {
+      max-width: 90%;
+    }
   }
 }

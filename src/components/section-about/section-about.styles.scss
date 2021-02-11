@@ -15,7 +15,7 @@
     width: 100%;
 
     .profile-frame {
-      height: auto;
+      height: 100%;
       // width: 50%;
       border: none;
       margin: 0 auto;
@@ -23,6 +23,7 @@
       display: block;
       
       img {
+        margin-top: 25px;
         width: 100%;
         max-width: 300px;
         min-width: 250px;
@@ -39,7 +40,7 @@
       height: 50%;
       max-width: 70%;
       // flex-grow: 2;
-      padding: 25px 30px 20px 20px;
+      padding: 25px 20px 20px 20px;
       border-bottom: 1px solid #1DD9CD; 
       // background: linear-gradient(45deg, rgb(25, 97, 78), rgb(59, 15, 15));
       // border-radius: 5px;
@@ -62,6 +63,10 @@
         img {
           min-width: 100px;
         }
+      }
+
+      .about-text-container {
+        max-width: 85%;
       }
     } 
   }

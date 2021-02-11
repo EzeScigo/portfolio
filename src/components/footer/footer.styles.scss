@@ -25,10 +25,14 @@
   
   .footer-right {
     text-align: right;
-    margin-right: 20px;
-  }
-
-  .footer-center {
-
+    margin-right: 10px;
   }
 };
+
+@media (max-width: 460px) {
+  .footer-container {
+    p {
+      font-size: small;
+    }
+  }
+}

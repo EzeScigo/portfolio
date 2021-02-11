@@ -55,10 +55,10 @@ a {
   align-items: stretch;
   justify-items: center;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
-  background-color: #0d2d47; /* Old browsers */
-  background: -moz-linear-gradient(bottom, #01325c 0%, #292f34 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(bottom, #292f34 0%,#292f34 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #04335a, #133049 20%, #171b1f 75%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-color: #030e18; /* Old browsers */
+  /* background: -moz-linear-gradient(bottom, #01325c 0%, #292f34 100%); FF3.6-15 */
+  /* background: -webkit-linear-gradient(bottom, #292f34 0%,#292f34 100%); Chrome10-25,Safari5.1-6 */
+  /* background: linear-gradient(to bottom, #04335a, #133049 20%, #171b1f 75%); W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
 };
 /* 292f34 */
