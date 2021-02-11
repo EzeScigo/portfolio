@@ -17,7 +17,7 @@ const SectionProjects = () => {
     <section id='projects' className='projects'>
       <div className='projects-text'>
         <h2>My current Stack & Tools</h2> 
-        <p className='about-text'>Full Stack Web Developer using MongoDB, Express, React, Node.js (MERN) with an emphasis on Frontend web development and mobile using React & React Native. Experienced in building CRUD applications, RESTful APIs using Node.js and express, User Auth and oAuth with PassportJS and Firebase. Common libraries of use: Axios, Redux, Lodash, react-router, redux-thunk, styled-components, . Common use of UI libraries: Bootstrap 4, React-Bootstrap, Material-UI.
+        <p className='about-text'>Front End Web Developer with an emphasis on Frontend web development and mobile using React & React Native. Experienced in building ecommerce applications, RESTful APIs, User Auth and oAuth with PassportJS and Firebase. Common libraries of use: Axios, Redux, Lodash, react-router, redux-thunk, styled-components and more. Common use of UI libraries: Bootstrap 4, React-Bootstrap, Material-UI.
         </p> 
       </div>
       <div className='cards-container'>
