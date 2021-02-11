@@ -33,8 +33,9 @@
   }
 };
 
-@media (max-width: 430px) {
+@media (max-width: 390px) {
   .projects {
+    padding: 80px 10px 80px;
     .cards-container {
       display: inline-flex;
       max-width: 100%;
