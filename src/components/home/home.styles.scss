@@ -42,19 +42,21 @@
 };
 
 /* Small devices: 576px and up  */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .home-title-container {
+    .title {
+      font-size: 38px;
+      line-height: 58px; 
+    }
+}
+}
 
 /* Medium devices: tablets, 768px and up */
 @media (min-width: 768px) {}
 
 /* Large devices: desktops, 992px and up */
 @media (min-width: 992px) {
-  .home-title-container {
-    .title {
-      font-size: 38px;
-      line-height: 58px; 
-    }
-}}
+}
 
 /* Extra large devices: large desktops, 1200px and up */
 @media (min-width: 1200px) {}

@@ -6,7 +6,11 @@ const Footer = () => {
 
   return (
     <div className='footer-container'>
-      <p>Ezequiel Scigolini © 2021</p>
+      <p className='footer-left'>Design & Developed by Ezequiel Scigolini</p>
+      <div className='footer-center'>
+        
+      </div>
+      <p className='footer-right'>Copyright © 2021</p>
     </div>
 )};
 

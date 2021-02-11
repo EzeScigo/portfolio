@@ -12,7 +12,7 @@ const Header = () => {
     <Sticky>
       {({ style, isSticky }) => ( 
         <header style={style} className={`header-navbar ${isSticky ? '' : 'hidden'}`}>
-          <a className='logo' href='#home'>ES</a>
+          <a className='logo' href='#home'>ESc</a>
           <div className='header-buttons'>
             <a href='#about-me'>About me</a>
             <a href='#projects'>Projects</a>

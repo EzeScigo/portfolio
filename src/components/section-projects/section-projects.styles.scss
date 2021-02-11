@@ -1,20 +1,38 @@
 .projects {
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
   padding: 80px 40px 80px;
   border-radius: 1px;
   background-color: rgb(226, 226, 226);
-  display: flex;
-  flex-direction: row;
 
   .projects-text {
     margin: 0 auto;
     text-align: center;
+    display: block;
+    max-width: 70%;
+
+    .about-text {
+      text-align: justify;
+    }
   };
 
-  .card-container {
-    width: 70%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    column-gap: 20px;
+  .cards-container {
+    width: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: center;
+    max-width: 90%;
+  }
+};
+
+/* Small devices: 576px and up  */
+@media (max-width: 430px) {
+  .projects {
+    .card-container {
+      display: inline-flex;
+    } 
   }
 }

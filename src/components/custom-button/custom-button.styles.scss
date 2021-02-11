@@ -17,8 +17,8 @@
   }
 
   .text {
-    font-family: 'Roboto', 'Open Sanz', 'Comic Sanz', 'Arial';
-    font-weight: bold;
+    font-family: 'Raleway', 'Open Sanz', 'Comic Sanz', 'Arial';
+    font-weight: 400;
     font-size: 18px;
     text-shadow: 0 0 1px whitesmoke;
     line-height: 32px;
@@ -28,7 +28,7 @@
     top: -45px;
     text-align: center;
     z-index: 0;
-    text-transform: uppercase;
+    // text-transform: uppercase;
   }
   
   &:hover .shape {

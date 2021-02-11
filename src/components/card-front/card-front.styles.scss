@@ -1,0 +1,33 @@
+.tech-icon-container {
+  width: auto;
+  margin: 25px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease 200ms;
+  flex: 1;
+  text-align: center;
+
+  .tech-icons {
+    width: auto;
+    font-size: 6em !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+
+.tech-icon-container:hover {
+
+
+  h3 {
+    font-weight: bold;
+  }
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+  background-color: transparent;
+}

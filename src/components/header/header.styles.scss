@@ -19,6 +19,7 @@
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   z-index: 10;
+  opacity: 0.9;
 
   .logo {
     float: none;
@@ -28,12 +29,13 @@
     padding: 12px;
     text-decoration: none;
     font-family: 'Josefin Sans';
-    font-size: 20px;
+    font-size: 26px;
     color: #e63872;
-    text-shadow: aquamarine;
+    text-shadow: 0.5px 0.5px #a0073a;
     transition: 0.4s ease;
     &:hover {
       color: #49bdbd;
+      text-shadow: 0.5px 0.5px #0c5c5c;
     }
   }
 
@@ -42,8 +44,8 @@
     align-items: right;
     flex-direction: column;
     // float: none;
-    padding: 0;
-    margin: 0 10px;
+    padding-right: 10px;
+    margin: 10px 10px;
   
     a {
       margin: 0 10px;
@@ -67,6 +69,7 @@
     .logo {
       float: left;
       text-align: center;
+      font-size: 20px;
     }
 
     .header-buttons {
@@ -74,8 +77,6 @@
       float: right;
     }
   }
-  
-
 }
 
 /* Medium devices: tablets, 768px and up */

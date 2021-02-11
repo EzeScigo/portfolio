@@ -33,7 +33,15 @@ body {
   width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
+}
+
+p {
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  word-wrap: break-word;
+  text-align: justify;
 }
 
 a {

@@ -4,17 +4,19 @@
   height: auto;
   width: 100%;
   display: block;
-  flex-direction: row;
+
   justify-content: space-between;
   background-color: whitesmoke;
 
   .about-margin {
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
     width: 100%;
 
     .profile-frame {
       height: auto;
+      width: 50%;
       border: none;
       margin: auto;
       padding: 15px 10px;
@@ -26,29 +28,23 @@
         border-radius: 50%;
       };
     };
-  };
 
-  .about-text-container {
-    margin: 0 auto;
-    height: 50%;
-    min-width: 0;
-    max-width: 70%;
-    flex-grow: 2;
-    padding: 25px 12px 18px;
-    border-bottom: 1px solid #1DD9CD; 
-    // background: linear-gradient(45deg, rgb(25, 97, 78), rgb(59, 15, 15));
-    // border-radius: 5px;
-    // border-color: whitesmoke;
-    // box-shadow: 2px 1px 5px rgb(236, 230, 230);
-
-    .about-text {
-      box-sizing: border-box;
-      color: rgb(31, 25, 25);
-      font-family: 'Ubuntu';
-      font-size: 20px;
-      word-wrap: break-word;
-      text-align: justify;
-    }
+    .about-text-container {
+      margin: 0 auto;
+      height: 50%;
+      max-width: 70%;
+      // flex-grow: 2;
+      padding: 25px 12px 18px;
+      border-bottom: 1px solid #1DD9CD; 
+      // background: linear-gradient(45deg, rgb(25, 97, 78), rgb(59, 15, 15));
+      // border-radius: 5px;
+      // border-color: whitesmoke;
+      // box-shadow: 2px 1px 5px rgb(236, 230, 230);
+  
+      .about-text {
+        color: rgb(31, 25, 25);
+      }
+    };
   };
 };
 
@@ -57,7 +53,7 @@
 
 .about {
   .about-margin {
-    display: inline-block;
+    display: block;
   }
 }
 
