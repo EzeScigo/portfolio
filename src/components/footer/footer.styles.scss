@@ -11,9 +11,10 @@
   opacity: 1;
 
   p {
-    font-family: 'Josefin Sans';
+    font-family: 'Raleway';
     color:rgb(238, 230, 230);
-    font-size: medium;
+    font-size: small;
+    opacity: 0.4;
     display: block;
   }
 
@@ -34,7 +35,6 @@
     justify-content: center;
     margin: 0 auto;
     p {
-      font-size: small;
       margin: 0;
     }
     .footer-left, .footer-right {

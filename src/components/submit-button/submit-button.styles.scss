@@ -15,10 +15,10 @@
       font-family: 'Roboto', 'Open Sanz', 'Comic Sanz', 'Arial';
       font-weight: bold;
       letter-spacing: 2px;
-      color: #f4f4f4;
+      color: whitesmoke;
       text-transform: uppercase;
       text-decoration: none;
-      border: 1px solid #e63872;
+      border: 1px solid rgb(146, 245, 248);
       position: relative;
       overflow: hidden;
       transition: all 500ms;
@@ -41,9 +41,9 @@
       }
 
       &:hover {
-        color: rgb(146, 245, 248);
-        box-shadow: 1px 1px 25px 10px rgba(146, 245, 248, 0.4);
-        border: 1px solid rgb(146, 245, 248);
+        color: whitesmoke;
+        box-shadow: 1px 1px 25px 10px #4d081f;
+        border: 1px solid #e63872;
 
         &::before {
           left: 100%;
