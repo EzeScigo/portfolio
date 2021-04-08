@@ -4,7 +4,7 @@ import './body.styles.scss';
 import ContactForm from '../contact-form/contact-form.component';
 
 import SectionAbout from '../section-about/section-about.component';
-import SectionProjects from '../section-projects/section-projects.component';
+import SectionSkills from '../section-skills/section-skills.component';
 
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
@@ -15,7 +15,7 @@ const Body = (props) => {
   return(
   <div className='main-container'>
     <SectionAbout />
-    <SectionProjects />
+    <SectionSkills />
     <section id='contact' className='contact'>
       <h2>Let's get in touch!</h2>
       <h4>I'm available to join new, exciting projects.</h4>

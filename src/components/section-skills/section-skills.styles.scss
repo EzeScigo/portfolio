@@ -1,4 +1,4 @@
-.projects {
+.skills {
   margin: 0 auto;
   width: 100%;
   display: block;
@@ -6,12 +6,12 @@
   border-radius: 1px;
   background-color: rgb(226, 226, 226);
 
-  .projects-title {
+  .skills-title {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .projects-text {
+  .skills-text {
     margin: 0 auto;
     text-align: center;
     display: block;
@@ -34,7 +34,7 @@
 };
 
 @media (max-width: 390px) {
-  .projects {
+  .skills {
     padding: 80px 10px 80px;
     .cards-container {
       display: inline-flex;
@@ -42,20 +42,20 @@
       margin: 0;
     };
 
-    .projects-text {
+    .skills-text {
       max-width: 90%;
     }
   }
 }
 
 @media (max-width: 600px) {
-  .projects {
+  .skills {
     .cards-container {
       display: inline-flex;
       max-width: 100%;
       margin: 0;
     };
-    .projects-text {
+    .skills-text {
       max-width: 90%;
     }
   }

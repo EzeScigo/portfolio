@@ -1,22 +1,15 @@
 import React from 'react';
 import Card from '../card/card.component';
-import ReactIcon from '../../utilities/react-icon.png';
-import CSSIcon from '../../utilities/css-icon.png';
-import HTMLIcon from '../../utilities/html-icon.png';
-import BootstrapIcon from '../../utilities/bootstrap-icon.png';
-import FirebaseIcon from '../../utilities/firebase-icon.png';
-import ReduxIcon from '../../utilities/redux-icon.png';
-import JavascriptIcon from '../../utilities/javascript-icon.png';
-import GithubIcon from '../../utilities/github-icon.png';
-import './section-projects.styles.scss';
+
+import './section-skills.styles.scss';
 
 
-const SectionProjects = () => {
+const SectionSkills = () => {
 
   return (
-    <section id='projects' className='projects'>
-      <div className='projects-text'>
-        <h2 className='projects-title'>My current Stack & Tools</h2> 
+    <section id='skills' className='skills'>
+      <div className='skills-text'>
+        <h2 className='skills-title'>My current Stack & Tools</h2> 
         <p className='about-text'>Front End Web Developer with an emphasis on Frontend web development and mobile using React & React Native. Experienced in building ecommerce applications, RESTful APIs, User Auth and oAuth with PassportJS and Firebase.</p>
         <p className='about-text'>Common libraries of use: Axios, Redux, Lodash, react-router, redux-thunk, styled-components and more. Common use of UI libraries: Bootstrap 4, React-Bootstrap, Material-UI.
         </p> 
@@ -40,6 +33,6 @@ const SectionProjects = () => {
   )
 };
 
-export default SectionProjects;
+export default SectionSkills;
 
 

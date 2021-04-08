@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePhoto from '../../utilities/foto-square.png';
+import profilePhoto from '../../utilities/foto3.jpg';
 
 import './section-about.styles.scss';
 

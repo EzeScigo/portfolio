@@ -23,7 +23,9 @@
     "react-flipcard": "^0.2.1",
     "react-hook-form": "^6.15.1",
     "react-icons": "^4.2.0",
+    "react-intl": "^5.15.7",
     "react-scripts": "4.0.1",
+    "react-spring": "^8.0.27",
     "react-sticky": "^6.0.3",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"

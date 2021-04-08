@@ -32,7 +32,7 @@
     font-size: 26px;
     color: #49bdbd;
     text-shadow: 0.5px 0.5px #0c5c5c;
-    transition: 0.4s ease;
+    transition: hover 0.1s ease-in-out;
     &:hover {
       color: #e63872;
       text-shadow: 0.5px 0.5px #a0073a;
@@ -53,7 +53,7 @@
       font-size: 14px;
       color: rgb(250, 250, 250);
       text-transform: uppercase;
-      transition: 0.4s ease;
+      transition: 0.1s ease-in-out;
     
       &:hover {
         color:rgb(172, 164, 164);
