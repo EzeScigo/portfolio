@@ -12,7 +12,7 @@ const Home = () => {
         <br></br>
         <span className='title-layout-mobile'>Engineer & Front End Developer</span>
         <br></br>
-        Based in The Netherlands
+        Based in Madrid
       </div>
       <CustomButton className='custom-button' dest='about-me'>Check me out</CustomButton>
     </div>
